@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.cache/
+public/voice/
+out/review/*
+!out/review/.gitkeep
+out/approved/*
+!out/approved/.gitkeep
+*.log
+.DS_Store

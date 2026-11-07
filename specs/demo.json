@@ -1,0 +1,26 @@
+{
+  "id": "demo",
+  "lang": "en",
+  "palette": { "bg": "#FFD23F", "ink": "#111111", "pop": "#FF4D8D" },
+  "scenes": [
+    { "id": "hook", "dur": 2.5,
+      "stickers": [
+        { "text": "Make a reel", "at": 0.1, "y": 620, "tilt": -3 },
+        { "text": "with ONE", "at": 0.7, "y": 800, "size": 130, "tilt": 2 },
+        { "text": "prompt?", "at": 1.2, "y": 980, "size": 190, "tilt": -2 }
+      ],
+      "vo": { "text": "Make a reel with one prompt?" } },
+    { "id": "how", "dur": 3, "bg": "#111111", "ink": "#FFFFFF",
+      "stickers": [
+        { "text": "1. write a spec", "at": 0.1, "y": 600, "size": 90 },
+        { "text": "2. add a voice", "at": 0.8, "y": 780, "size": 90 },
+        { "text": "3. pnpm render", "at": 1.5, "y": 960, "size": 90, "color": "#FFD23F" }
+      ],
+      "vo": { "text": "A spec, a voice, one command." } },
+    { "id": "cta", "dur": 2.5, "bg": "#FF4D8D", "ink": "#FFFFFF",
+      "stickers": [
+        { "text": "Get the template", "at": 0.1, "y": 700, "size": 120 },
+        { "text": "Comment GUIDE", "at": 0.9, "y": 950, "size": 100, "color": "#111111" }
+      ] }
+  ]
+}
